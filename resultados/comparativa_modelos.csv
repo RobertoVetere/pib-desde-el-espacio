@@ -1,0 +1,9 @@
+modelo,mae,mejora_vs_base_pct,ic95_lo,ic95_hi,observaciones_entreno
+base (sin satélite),4.50,0.00,0.00,0.00,652
+NO2 en bruto,4.74,-5.29,-14.22,1.94,652
+NO2 sin efecto del tiempo,5.72,-27.13,-42.89,-14.13,652
+NO2 sin tiempo + contraste laborable/fin de semana,5.98,-32.87,-52.32,-19.36,652
+base (sin satélite) | entrenado sin COVID,4.50,0.00,0.00,0.00,380
+NO2 en bruto | entrenado sin COVID,4.49,0.40,-0.46,1.27,380
+NO2 sin efecto del tiempo | entrenado sin COVID,4.47,0.87,-1.02,2.73,380
+NO2 sin tiempo + contraste laborable/fin de semana | entrenado sin COVID,4.50,0.17,-2.77,2.82,380

@@ -1,0 +1,70 @@
+{
+  "prueba": "2023-01 → 2026-09 (765 observaciones, 45 meses)",
+  "mae_ingenua": 6.641176470588236,
+  "modelos": [
+    {
+      "modelo": "base (sin satélite)",
+      "mae": 4.500251250161493,
+      "mejora_vs_base_pct": 0.0,
+      "ic95_lo": 0.0,
+      "ic95_hi": 0.0,
+      "observaciones_entreno": 652
+    },
+    {
+      "modelo": "NO2 en bruto",
+      "mae": 4.738207809868222,
+      "mejora_vs_base_pct": -5.287628322933968,
+      "ic95_lo": -14.220382712714885,
+      "ic95_hi": 1.9383345739430038,
+      "observaciones_entreno": 652
+    },
+    {
+      "modelo": "NO2 sin efecto del tiempo",
+      "mae": 5.721108710783478,
+      "mejora_vs_base_pct": -27.128651107605894,
+      "ic95_lo": -42.88818219036724,
+      "ic95_hi": -14.129202498016614,
+      "observaciones_entreno": 652
+    },
+    {
+      "modelo": "NO2 sin tiempo + contraste laborable/fin de semana",
+      "mae": 5.979394731461123,
+      "mejora_vs_base_pct": -32.86802000769511,
+      "ic95_lo": -52.31530558058785,
+      "ic95_hi": -19.364872886393606,
+      "observaciones_entreno": 652
+    },
+    {
+      "modelo": "base (sin satélite) | entrenado sin COVID",
+      "mae": 4.504835885783327,
+      "mejora_vs_base_pct": 0.0,
+      "ic95_lo": 0.0,
+      "ic95_hi": 0.0,
+      "observaciones_entreno": 380
+    },
+    {
+      "modelo": "NO2 en bruto | entrenado sin COVID",
+      "mae": 4.486865057326093,
+      "mejora_vs_base_pct": 0.3989230443210534,
+      "ic95_lo": -0.4605736197430643,
+      "ic95_hi": 1.2723769564669702,
+      "observaciones_entreno": 380
+    },
+    {
+      "modelo": "NO2 sin efecto del tiempo | entrenado sin COVID",
+      "mae": 4.465805215800691,
+      "mejora_vs_base_pct": 0.8664171342137705,
+      "ic95_lo": -1.0245240124247579,
+      "ic95_hi": 2.7303726364071785,
+      "observaciones_entreno": 380
+    },
+    {
+      "modelo": "NO2 sin tiempo + contraste laborable/fin de semana | entrenado sin COVID",
+      "mae": 4.497386166108176,
+      "mejora_vs_base_pct": 0.16537161095394604,
+      "ic95_lo": -2.7665603129423557,
+      "ic95_hi": 2.8209571984321444,
+      "observaciones_entreno": 380
+    }
+  ]
+}
