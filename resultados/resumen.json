@@ -15,23 +15,23 @@
       "mae": 4.738207809868222,
       "mejora_vs_base_pct": -5.287628322933968,
       "ic95_lo": -14.220382712714885,
-      "ic95_hi": 1.9383345739430038,
+      "ic95_hi": 1.938334573943004,
       "observaciones_entreno": 652
     },
     {
       "modelo": "NO2 sin efecto del tiempo",
-      "mae": 5.721108710783478,
+      "mae": 5.721108710783477,
       "mejora_vs_base_pct": -27.128651107605894,
-      "ic95_lo": -42.88818219036724,
-      "ic95_hi": -14.129202498016614,
+      "ic95_lo": -42.88818219036649,
+      "ic95_hi": -14.129202498016108,
       "observaciones_entreno": 652
     },
     {
       "modelo": "NO2 sin tiempo + contraste laborable/fin de semana",
-      "mae": 5.979394731461123,
-      "mejora_vs_base_pct": -32.86802000769511,
-      "ic95_lo": -52.31530558058785,
-      "ic95_hi": -19.364872886393606,
+      "mae": 5.9793947314611255,
+      "mejora_vs_base_pct": -32.8680200076952,
+      "ic95_lo": -52.315305580591264,
+      "ic95_hi": -19.36487288639399,
       "observaciones_entreno": 652
     },
     {
@@ -44,26 +44,26 @@
     },
     {
       "modelo": "NO2 en bruto | entrenado sin COVID",
-      "mae": 4.486865057326093,
-      "mejora_vs_base_pct": 0.3989230443210534,
-      "ic95_lo": -0.4605736197430643,
-      "ic95_hi": 1.2723769564669702,
+      "mae": 4.486865057326081,
+      "mejora_vs_base_pct": 0.39892304432134207,
+      "ic95_lo": -0.46057361974424615,
+      "ic95_hi": 1.272376956468835,
       "observaciones_entreno": 380
     },
     {
       "modelo": "NO2 sin efecto del tiempo | entrenado sin COVID",
-      "mae": 4.465805215800691,
-      "mejora_vs_base_pct": 0.8664171342137705,
-      "ic95_lo": -1.0245240124247579,
-      "ic95_hi": 2.7303726364071785,
+      "mae": 4.465805215800704,
+      "mejora_vs_base_pct": 0.8664171342134486,
+      "ic95_lo": -1.024524012423742,
+      "ic95_hi": 2.730372636407118,
       "observaciones_entreno": 380
     },
     {
       "modelo": "NO2 sin tiempo + contraste laborable/fin de semana | entrenado sin COVID",
-      "mae": 4.497386166108176,
-      "mejora_vs_base_pct": 0.16537161095394604,
-      "ic95_lo": -2.7665603129423557,
-      "ic95_hi": 2.8209571984321444,
+      "mae": 4.497386166108168,
+      "mejora_vs_base_pct": 0.16537161095414588,
+      "ic95_lo": -2.7665603129424685,
+      "ic95_hi": 2.82095719843206,
       "observaciones_entreno": 380
     }
   ]
